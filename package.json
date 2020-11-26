@@ -1,0 +1,23 @@
+{
+  "name": "javascript-api-test-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cucumber.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablobedoya/javascript-api-test-poc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablobedoya/javascript-api-test-poc/issues"
+  },
+  "homepage": "https://github.com/pablobedoya/javascript-api-test-poc#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.0.0-rc.0"
+  }
+}
