@@ -11,7 +11,7 @@ class UsersService {
 
     createUser(json) {
         return this.request
-            .post('/users')
+            .post(usersResource)
             .send(json)
             .set('Accept', 'application/json')
             .expect((res) => {
