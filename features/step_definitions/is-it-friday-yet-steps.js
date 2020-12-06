@@ -18,5 +18,5 @@ When('I ask whether it\'s Friday yet', function () {
 });
 
 Then('I should be told {string}', function (expectedAnswer) {
-  assert.equal(this.actualAnswer, expectedAnswer);
+  assert.strictEqual(this.actualAnswer, expectedAnswer);
 });
